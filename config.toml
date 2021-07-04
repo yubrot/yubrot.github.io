@@ -1,0 +1,105 @@
+baseURL = "https://yubrot.github.io/"
+defaultContentLanguage = "en-us"
+languageCode = "ja-jp"
+theme = "tranquilpeak"
+title = "yubrot.github.io"
+# googleAnalytics = "UA-123-45"
+canonifyurls = true
+
+[permalinks]
+post = "/:year/:month/:slug/"
+
+[taxonomies]
+archive = "archives"
+category = "categories"
+tag = "tags"
+
+[author]
+name = "yubrot"
+# bio = ""
+picture = "/images/yu.jpg"
+twitter = "yubrot"
+
+# [[menu.main]]
+# identifier = "home"
+# name = "Home"
+# pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+# url = "/"
+# weight = 1
+[[menu.main]]
+identifier = "profile"
+name = "Profile"
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-user\"></i>"
+url = "/profile"
+weight = 2
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-diamond\"></i>"
+url = "/categories/project"
+weight = 3
+# [[menu.main]]
+# identifier = "archives"
+# name = "Archives"
+# pre = "<i class=\"sidebar-button-icon fa fa-lg fa-folder\"></i>"
+# url = "/archives"
+# weight = 4
+# [[menu.main]]
+# identifier = "tags"
+# name = "Tags"
+# pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
+# url = "/tags"
+# weight = 5
+
+[[menu.links]]
+identifier = "github"
+name = "GitHub"
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+url = "https://github.com/yubrot"
+weight = 1
+[[menu.links]]
+identifier = "scrapbox"
+name = "Scrapbox"
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-sticky-note\"></i>"
+url = "https://scrapbox.io/yubrot/yubrot"
+weight = 2
+[[menu.links]]
+identifier = "zenn"
+name = "Zenn"
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-code\"></i>"
+url = "https://zenn.dev/yubrot"
+weight = 3
+[[menu.links]]
+identifier = "twitter"
+name = "Twitter"
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
+url = "https://twitter.com/yubrot"
+weight = 4
+
+[params]
+autoThumbnailImage = true
+clearReading = false
+coverImage = "images/background.jpg"
+hierarchicalCategories = false
+imageGallery = true
+sidebarBehavior = 1
+swapPaginator = true
+syntaxHighlighter = "highlight.js"
+thumbnailImage = true
+thumbnailImagePosition = "left"
+
+[params.sidebar.profile]
+url = "/"
+
+[[params.sharingOptions]]
+icon = "fa-twitter"
+name = "Twitter"
+url = "https://twitter.com/intent/tweet?text=%s"
+
+[params.header.rightLink]
+class = ""
+icon = ""
+url = "/about"
+
+[markup.goldmark.renderer]
+hardWraps = true
