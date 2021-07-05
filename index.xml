@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yubrot.github.io</title><link>https://yubrot.github.io/</link><description>Recent content on yubrot.github.io</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 05 Jul 2021 09:44:01 +0900</lastBuildDate><atom:link href="https://yubrot.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>FEKG: Fast Enough Kusokora Generator</title><link>https://yubrot.github.io/2021/07/fekg-fast-enough-kusokora-generator/</link><pubDate>Mon, 05 Jul 2021 09:44:01 +0900</pubDate><guid>https://yubrot.github.io/2021/07/fekg-fast-enough-kusokora-generator/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yubrot.github.io</title><link>https://yubrot.github.io/</link><description>Recent content on yubrot.github.io</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 05 Jul 2021 12:06:51 +0900</lastBuildDate><atom:link href="https://yubrot.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>llrl programming language</title><link>https://yubrot.github.io/2021/07/llrl/</link><pubDate>Mon, 05 Jul 2021 12:06:51 +0900</pubDate><guid>https://yubrot.github.io/2021/07/llrl/</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://github.com/yubrot/llrl">github.com/yubrot/llrl&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Rust + LLVM による自作プログラミング言語処理系。大きな特徴は以下の 3 つ。&lt;/p>
+&lt;ul>
+&lt;li>Hindley-Milner ベースの型推論による静的型付け (+型クラス)&lt;/li>
+&lt;li>Lisp-like な S 式によるシンタックスと LLVM JIT によるマクロ&lt;/li>
+&lt;li>&lt;strong>完全なセルフホスティングコンパイラ実装&lt;/strong>&lt;/li>
+&lt;/ul></description></item><item><title>FEKG: Fast Enough Kusokora Generator</title><link>https://yubrot.github.io/2021/07/fekg/</link><pubDate>Mon, 05 Jul 2021 09:44:01 +0900</pubDate><guid>https://yubrot.github.io/2021/07/fekg/</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://github.com/yubrot/fekg">github.com/yubrot/fekg&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://fekg.vercel.app/">Live Demo&lt;/a>&lt;/li>
 &lt;/ul>
@@ -14,7 +22,6 @@
 &lt;li>&lt;a href="https://github.com/yubrot/rosetta-lisp">github.com/yubrot/rosetta-lisp&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>星の数ほど Lisp 系言語の実装は存在するが、自分もいくつかの言語で Lisp 処理系を作った。&lt;a href="https://ja.wikipedia.org/wiki/SECD%E3%83%9E%E3%82%B7%E3%83%B3">SECD マシン&lt;/a>風の非常に単純な VM をベースとすることで、複数の言語間で共通の命令セット、共通の&lt;a href="https://github.com/yubrot/rosetta-lisp/blob/master/boot.lisp">ブートストラップコード&lt;/a>で動作する。&lt;/p></description></item><item><title>Profile</title><link>https://yubrot.github.io/profile/</link><pubDate>Sun, 04 Jul 2021 20:00:34 +0900</pubDate><guid>https://yubrot.github.io/profile/</guid><description>北海道にいるソフトウェアエンジニア。趣味でロードサイクリングと登山をやります。
-プログラミング言語やそのエコシステム、言語処理系に興味があります。
-実行しやすく、サンドボックス環境を備えるWeb系の技術が好きです。
-作ったもの TODO
-アカウント GitHub: @yubrot &amp;hellip; 作ったもの Scrapbox: /yubrot &amp;hellip; 雑記 Zenn: yubrot &amp;hellip; 技術的な知見 Twitter: @yubrot &amp;hellip; 写真とか通知とかシェアとか 連絡先 yubrot@gmail.com TwitterのDMを解放しています。</description></item></channel></rss>
+Interests TODO
+Skills TODO
+Projects 2021 llrl programming language - Lisp ライクな自作言語 (Rust + LLVM) -2020 FEKG: Fast Enough Kusokora Generator - クソコラを作る Web アプリ (Next.js) emitter3d - パーティクルが幾何的な動きをするのを眺めるデモ (TypeScript + three.js) Titan Type Checker - Hindley-Milner ベースの型チェッカを自分で実装して学ぶ Rosetta Lisp - SECD-like な仮想機械上で動作する、共通のブートストラップコードを用いた Lisp 実装群 Accounts GitHub: @yubrot &amp;hellip; 作ったもの Twitter: @yubrot &amp;hellip; 写真とか通知とかシェアとか Zenn: yubrot &amp;hellip; 技術的な知見 Scrapbox: /yubrot &amp;hellip; 雑記 Contact yubrot@gmail.</description></item></channel></rss>

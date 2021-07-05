@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>llvm on yubrot.github.io</title><link>https://yubrot.github.io/tags/llvm/</link><description>Recent content in llvm on yubrot.github.io</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 05 Jul 2021 12:06:51 +0900</lastBuildDate><atom:link href="https://yubrot.github.io/tags/llvm/index.xml" rel="self" type="application/rss+xml"/><item><title>llrl programming language</title><link>https://yubrot.github.io/2021/07/llrl/</link><pubDate>Mon, 05 Jul 2021 12:06:51 +0900</pubDate><guid>https://yubrot.github.io/2021/07/llrl/</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://github.com/yubrot/llrl">github.com/yubrot/llrl&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Rust + LLVM による自作プログラミング言語処理系。大きな特徴は以下の 3 つ。&lt;/p>
+&lt;ul>
+&lt;li>Hindley-Milner ベースの型推論による静的型付け (+型クラス)&lt;/li>
+&lt;li>Lisp-like な S 式によるシンタックスと LLVM JIT によるマクロ&lt;/li>
+&lt;li>&lt;strong>完全なセルフホスティングコンパイラ実装&lt;/strong>&lt;/li>
+&lt;/ul></description></item></channel></rss>
