@@ -7,7 +7,7 @@ title = "yubrot.github.io"
 canonifyurls = true
 
 [permalinks]
-post = "/:year/:month/:slug/"
+post = "/:year/:month/:filename/"
 
 [taxonomies]
 archive = "archives"
@@ -58,10 +58,10 @@ pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
 url = "https://github.com/yubrot"
 weight = 1
 [[menu.links]]
-identifier = "scrapbox"
-name = "Scrapbox"
-pre = "<i class=\"sidebar-button-icon fa fa-lg fa-sticky-note\"></i>"
-url = "https://scrapbox.io/yubrot"
+identifier = "twitter"
+name = "Twitter"
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
+url = "https://twitter.com/yubrot"
 weight = 2
 [[menu.links]]
 identifier = "zenn"
@@ -70,10 +70,10 @@ pre = "<i class=\"sidebar-button-icon fa fa-lg fa-code\"></i>"
 url = "https://zenn.dev/yubrot"
 weight = 3
 [[menu.links]]
-identifier = "twitter"
-name = "Twitter"
-pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
-url = "https://twitter.com/yubrot"
+identifier = "scrapbox"
+name = "Scrapbox"
+pre = "<i class=\"sidebar-button-icon fa fa-lg fa-sticky-note\"></i>"
+url = "https://scrapbox.io/yubrot"
 weight = 4
 
 [params]

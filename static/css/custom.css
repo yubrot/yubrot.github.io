@@ -1,3 +1,6 @@
+.post-content li {
+  margin: 3px 0;
+}
 .yubrot-gallery {
   display: flex;
   justify-content: center;

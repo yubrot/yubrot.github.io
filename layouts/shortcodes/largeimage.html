@@ -1,12 +1,14 @@
 {{- $title := .Get "title" }}
 {{- $link := .Get "link" }}
 {{- $src := .Get "src" }}
+{{- $thumbnailSrc := $src }}
+{{- $size := .Get "size" | default "600x300" }}
 {{- $res := .Page.Resources.GetMatch $src }}
 {{- if $res }}
 {{- $src = $res.RelPermalink }}
+{{- $image := $res.Fit $size }}
+{{- $thumbnailSrc = $image.RelPermalink }}
 {{- end }}
-{{- $image := $res.Fit "600x300" }}
-{{- $thumbnailSrc := $image.RelPermalink }}
 
 <figure class="yubrot-largeimage">
   <a class="luminous" href="{{ $src }}">
