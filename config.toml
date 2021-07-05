@@ -61,7 +61,7 @@ weight = 1
 identifier = "scrapbox"
 name = "Scrapbox"
 pre = "<i class=\"sidebar-button-icon fa fa-lg fa-sticky-note\"></i>"
-url = "https://scrapbox.io/yubrot/yubrot"
+url = "https://scrapbox.io/yubrot"
 weight = 2
 [[menu.links]]
 identifier = "zenn"
@@ -81,7 +81,6 @@ autoThumbnailImage = true
 clearReading = false
 coverImage = "images/background.jpg"
 hierarchicalCategories = false
-imageGallery = true
 sidebarBehavior = 1
 swapPaginator = true
 syntaxHighlighter = "highlight.js"
@@ -100,6 +99,37 @@ url = "https://twitter.com/intent/tweet?text=%s"
 class = ""
 icon = ""
 url = "/about"
+
+[[params.customJS]]
+crossorigin = "anonymous"
+integrity = "sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp"
+src = "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js"
+
+[[params.customJS]]
+crossorigin = "anonymous"
+integrity = "sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"
+src = "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js"
+
+[[params.customJS]]
+crossorigin = "anonymous"
+integrity = "sha512-OowuWkXmzaarpYBk1sa79Vv/KEffTghmkzqG5g0eC+K0ujtoLpuvGzR3ED8YFST667Z5lQjnRsBObGq24m+mkQ=="
+src = "https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.3/Luminous.min.js"
+
+[[params.customJS]]
+src = "js/custom.js"
+
+[[params.customCSS]]
+crossorigin = "anonymous"
+href = "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css"
+integrity = "sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc"
+
+[[params.customCSS]]
+crossorigin = "anonymous"
+href = "https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.3/luminous-basic.min.css"
+integrity = "sha512-qvPeSLkXsYxwQBnNswZ6Fri9TbDR2wOKSXzBFnuSFlOGbWob7KY8qrHU6F4YukwN6FmcdDWR1jYCbgWjf3nVkQ=="
+
+[[params.customCSS]]
+href = "css/custom.css"
 
 [markup.goldmark.renderer]
 hardWraps = true
