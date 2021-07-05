@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>three.js on yubrot.github.io</title><link>https://yubrot.github.io/tags/three.js/</link><description>Recent content in three.js on yubrot.github.io</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sun, 04 Jul 2021 20:33:28 +0900</lastBuildDate><atom:link href="https://yubrot.github.io/tags/three.js/index.xml" rel="self" type="application/rss+xml"/><item><title>emitter3d</title><link>https://yubrot.github.io/2021/07/emitter3d/</link><pubDate>Sun, 04 Jul 2021 20:33:28 +0900</pubDate><guid>https://yubrot.github.io/2021/07/emitter3d/</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://github.com/yubrot/emitter3d">github.com/yubrot/emitter3d&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yubrot.github.io/emitter3d/">Live demo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>TypeScript + three.js 製の、パーティクルの幾何的な動きをランダム生成して眺めるデモ。&lt;/p></description></item></channel></rss>

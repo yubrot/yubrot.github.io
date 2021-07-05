@@ -1,0 +1,20 @@
+.yubrot-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+}
+.yubrot-gallery > * {
+  margin: 0 0 0 2px;
+}
+.yubrot-gallery:first-child {
+  margin: 0;
+}
+.yubrot-largeimage figcaption {
+  font-size: 1.4rem;
+  padding-right: 4px;
+  text-align: right;
+}
+.lum-lightbox {
+  z-index: 100;
+}
