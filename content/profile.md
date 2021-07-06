@@ -4,7 +4,6 @@ date: 2021-07-04T20:00:34+09:00
 comments: false
 showMeta: false
 showActions: false
-thumbnailImage: /images/yu.jpg
 ---
 
 {{< image src="/images/yu.jpg" classes="fig-33 clear" >}}
@@ -13,7 +12,9 @@ thumbnailImage: /images/yu.jpg
 
 ## Interests
 
-TODO
+- プログラミング言語やそのエコシステム、言語処理系に興味があります。新しいプログラミング言語を学ぶときには、しばしば[その言語で簡単な Lisp 処理系を実装するなどします](/2021/07/rosetta-lisp)。[自作言語をセルフホストしたことがあります](/2021/07/llrl)。
+- アクセスや実行が容易で、サンドボックス環境を備えつつ実現できることが広がっている Web 系の技術を好む傾向があります。
+- 抽象化された技術の裏側にしばしば興味を持ち、また自分で実装してみることを好みます。
 
 ## Skills
 
@@ -25,13 +26,13 @@ TODO
 
 #### 2021
 
-- [llrl programming language](/2021/07/llrl) - Lisp ライクな自作言語 (Rust + LLVM)
+- [llrl programming language](/2021/07/llrl) - Lisp ライクな自作言語とその処理系 (Rust + LLVM)
 
 #### -2020
 
-- [FEKG: Fast Enough Kusokora Generator](/2021/07/fekg) - クソコラを作る Web アプリ (Next.js)
+- [FEKG: Fast Enough Kusokora Generator](/2021/07/fekg) - クソコラを作る Web アプリ (Next.js + Firebase)
 - [emitter3d](/2021/07/emitter3d) - パーティクルが幾何的な動きをするのを眺めるデモ (TypeScript + three.js)
-- [Titan Type Checker](/2021/07/titan-type-checker) - Hindley-Milner ベースの型チェッカを自分で実装して学ぶ
+- [Titan Type Checker](/2021/07/titan-type-checker) - Hindley-Milner ベースの型チェッカを自分で実装して学ぶ (Haskell)
 - [Rosetta Lisp](/2021/07/rosetta-lisp) - SECD-like な仮想機械上で動作する、共通のブートストラップコードを用いた Lisp 実装群
 
 ---
