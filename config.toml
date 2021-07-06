@@ -98,7 +98,7 @@ url = "https://twitter.com/intent/tweet?text=%s"
 [params.header.rightLink]
 class = ""
 icon = ""
-url = "/about"
+url = "/profile"
 
 [[params.customJS]]
 crossorigin = "anonymous"
