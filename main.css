@@ -1,0 +1,45 @@
+body {
+  background: #f3f4f6;
+  color: #1e293b;
+  line-height: 1.8em;
+}
+a {
+  color: #3b82f6;
+}
+a:hover {
+  color: #d946ef;
+}
+
+#container {
+  margin: 3em auto;
+  max-width: 900px;
+  padding: 1em 2em;
+  background: #fff;
+}
+#icon {
+  display: block;
+  margin: 0 auto;
+  max-width: 140px;
+  object-fit: contain;
+  border-radius: 100%;
+}
+#name {
+  text-align: center;
+  font-size: 150%;
+  margin: 1em 0;
+}
+#services {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+#services li {
+  display: block;
+  margin: 0 0.5em;
+}
+#main h1 {
+  margin: 1.5em 0 0;
+}
+#main ul {
+  padding-left: 2em;
+}
